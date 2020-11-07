@@ -1,0 +1,19 @@
+﻿body{
+    margin: 0;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.site{
+    background-color: white;
+    position: absolute;
+    top: 245px;
+    height: 100%;
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: rgb( 102, 0, 0);
+    min-width: 1200px;
+}
