@@ -11,13 +11,13 @@
 
 li.navigationbarLeft {
     float: left;
-    margin-right: 25px;
+    margin-right: 18px;
     list-style-type: none;
 }
 
 li.navigationbarRight {
     float: right;
-    margin-right: 20px;
+    margin-right: 10px;
     list-style-type: none;
 }
 
@@ -38,11 +38,11 @@ a.navigationbar:link{
 } 
 
 a.navigationbarLeft{
-    font-size:25px;
+    font-size:18px;
     font-family: "Garamond";
     font-weight: bold;
 }
 
 a.navigationbarRight{
-    font-size:20px;
+    font-size:18px;
 }
