@@ -5,13 +5,13 @@
     width: 100%;
     height: 75px;
     padding-bottom:5px;
+    min-width: 1600px;
 }
 
 div.footerBackground{   
     background-image: url("/images/background/korken.jpg");
     opacity: 0.3;  
     background-size: cover;
-    position: absolute;
     position: absolute;
     z-index: -1;
     top: 0;
