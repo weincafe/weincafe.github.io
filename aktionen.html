@@ -3,8 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/content.css" />
     <link rel="stylesheet" href="css/navigationbar.css" />
     <link rel="stylesheet" href="css/infobar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
 
     <script src="js/jquery-3.5.1.js"></script>
 
@@ -12,6 +14,7 @@
         $(function () {
             $("#includeinfobar").load("infobar.html");
             $("#includenavigationbar").load("navigationbar.html");
+            $("#includeFooter").load("footer.html");
         });
     </script>
 </head>
@@ -19,16 +22,15 @@
 <body>
     <div id="includeinfobar"></div>
     <div id="includenavigationbar"></div>
-    <div class="site">
-
-
-        <h3> Flammkuchen-Donnerstag </h3>
+    <div class="content">
+        
+        <h2> Flammkuchen-Donnerstag </h2>
         Jeden Donnerstag zwei Flammkuchen ihrer Wahl und eine Flasche (0,75 l) Weiß- oder Rotwein für 19,90 €.
         <br />
         <img src="images/aktionen/flammkuchenDonnerstag.jpg" width="500" style="margin-top: 20px; margin-bottom: 50px;">
         <br />
 
-        <h3> 19./20./21. November: Beaujolais-Menü (28 € pro Person) </h3>
+        <h2> 19./20./21. November: Beaujolais-Menü (28 € pro Person) </h2>
         
         Freuen Sie sich mit uns auf den ersten Beaujolais des Jahres zu einem kleinen französischem Menü!
         <br />
@@ -46,18 +48,21 @@
  
         Nur mit Vorbestellung bis zum 15.November per Mail weincafe@t-online.de oder telefonisch 06434/9078750.
         <br />
-        <img src="images/aktionen/beaujolaisNouveauEstArrive.jpg" width="500"
-            style="margin-top: 20px; margin-bottom: 50px;">
+        <img src="images/aktionen/beaujolaisNouveauEstArrive.jpg" height="300" style="margin-top: 20px; margin-bottom: 50px;">
+        <img src="images/aktionen/beaujolaisAbend.jpg" height="300" style="margin-top: 20px; margin-bottom: 50px;">
 
         <br />
 
-        <h3> 4./5. Dezember: Vorfreude auf Weihnachten (25 € pro Person)</h3>
+        <h2> 4./5. Dezember: Vorfreude auf Weihnachten (25 € pro Person)</h2>
         Stimmen Sie sich mit uns bei einem weihnachtlichen 5-Gang-Menü auf die Festtage ein.
         <br />
         <img src="images/aktionen/vorfreudeAufWeihnachten.jpg" width="500"
             style="margin-top: 20px; margin-bottom: 50px;">
 
     </div>
+
+    <div id="includeFooter"></div>
+
 </body>
 
 </html>

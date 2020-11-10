@@ -4,8 +4,10 @@
 
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/site.css" />
+  <link rel="stylesheet" href="css/content.css" />
   <link rel="stylesheet" href="css/navigationbar.css" />
   <link rel="stylesheet" href="css/infobar.css" />
+  <link rel="stylesheet" href="css/footer.css" />
 
   <script src="js/jquery-3.5.1.js"></script>
 
@@ -13,6 +15,7 @@
     $(function () {
       $("#includeInfobar").load("infobar.html");
       $("#includeNavigationbar").load("navigationbar.html");
+      $("#includeFooter").load("footer.html");
     });
   </script>
 
@@ -23,44 +26,48 @@
   <div id="includeInfobar"></div>
   <div id="includeNavigationbar"></div>
 
-  <div class="site">
+  <div class="content">
 
-    <div>
-      <h3> Herzlich willkommen im Weincafé am Kirchplatz</h3>
+      <div>
+        <h2> Herzlich willkommen im Weincafé am Kirchplatz</h2>
 
-      <div style="width:1200px;  margin:0 auto; text-align:left;">
-        <p> Freuen Sie sich auf ausgewählte Kaffeespezialtäten, hervorragente Weine und kleine, feine Speisen in
-          gemütlicher Atmosphäre im Lokal oder bei schönem Wetter im Hof an der Stadtmauer. </p>
+        <div style="max-width:800px;  margin:0 auto; text-align:center;">
+          <p> Freuen Sie sich auf ausgewählte Kaffeespezialtäten, hervorragente Weine und kleine, feine Speisen in
+            gemütlicher Atmosphäre im Lokal oder bei schönem Wetter im Hof an der Stadtmauer. </p>
+        </div>
       </div>
-    </div>
 
-    <img src="images/cafe/innen.jpg" height="450px" style="margin: 10px;">
-    <img src="images/cafe/hof.jpg" height="450px" style="margin: 10px;">
+      <img src="images/cafe/innen.jpg" height="450px" style="margin: 10px;">
+      <img src="images/cafe/hof.jpg" height="450px" style="margin: 10px;">
 
-    <div style="width:1200px;  margin:0 auto; text-align:left;">
+      <div style="max-width:1200px;  margin:0 auto; text-align:left;">
 
-      <p>
-        Das WeinCafé am Kirchplatz ist ein kleines Weinlokal im Herzen der Bad Camberger Aldstadt, direkt an der
-        katholischen Kirche in einem wunderschön saniertem Fachwerkhaus an der alten Stadtmauer.
-        Wir bieten ihnen eine Auswahl an feinen Weinen aus Deutschland (z.B. Weingut Robert Weil im Rheingau, Heger und
-        Salwey aus Baden oder Schönhals aus Rheinhessen mit Bioweinen), Frankreich, Spanien und Italien.
-        <br />
-        <br />
-        Dazu servieren wir Ihnen gerne kleine Speisen, wie Tapasteller, Ofenkartoffel, Quiche oder Käseauwahl.
-        Zudem haben wir eine große Auswahl an leckeren Flammkuchen, die perfekt zu einem Gläschen Wein harmonieren.
-        Auch verschiedene Kaffeespezialitäten,wie Cappuccino, Latte Macchiato, Milchkaffee, Chocolate-Mocca und Chai
-        Latte haben wir.
-        <br />
-        <br />
-        Im Lokal haben wir Platz für ca. 20 Personen.
-        Im Sommer freuen wir uns Sie im Hof an der Stadtmauer zu begrüßen.
-      </p>
-    </div>
+        <p>
+          Das WeinCafé am Kirchplatz ist ein kleines Weinlokal im Herzen der Bad Camberger Aldstadt, direkt an der
+          katholischen Kirche in einem wunderschön saniertem Fachwerkhaus an der alten Stadtmauer.
+          Wir bieten ihnen eine Auswahl an feinen Weinen aus Deutschland (z.B. Weingut Robert Weil im Rheingau, Heger
+          und
+          Salwey aus Baden oder Schönhals aus Rheinhessen mit Bioweinen), Frankreich, Spanien und Italien.
+          <br />
+          <br />
+          Dazu servieren wir Ihnen gerne kleine Speisen, wie Tapasteller, Ofenkartoffel, Quiche oder Käseauwahl.
+          Zudem haben wir eine große Auswahl an leckeren Flammkuchen, die perfekt zu einem Gläschen Wein harmonieren.
+          Auch verschiedene Kaffeespezialitäten,wie Cappuccino, Latte Macchiato, Milchkaffee, Chocolate-Mocca und Chai
+          Latte haben wir.
+          <br />
+          <br />
+          Im Lokal haben wir Platz für ca. 20 Personen.
+          Im Sommer freuen wir uns Sie im Hof an der Stadtmauer zu begrüßen.
+        </p>
+      </div>
 
-    <img src="images/cafe/außen.jpg" height="450px" style="margin: 10px;">
-    <img src="images/cafe/hof2.jpg" height="450px" style="margin: 10px;">
+      <img src="images/cafe/außen.jpg" height="450px" style="margin: 10px;">
+      <img src="images/cafe/hof2.jpg" height="450px" style="margin: 10px;">
 
   </div>
+
+  <div id="includeFooter"></div>
+
 </body>
 
 </html>

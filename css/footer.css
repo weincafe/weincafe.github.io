@@ -1,0 +1,44 @@
+﻿div.footer{
+    position: absolute;    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    padding-bottom:5px;
+}
+
+div.footerBackground{   
+    background-image: url("/images/background/korken.jpg");
+    opacity: 0.3;  
+    background-size: cover;
+    position: absolute;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+li.footer {
+    float: right;
+    padding: 15px;
+    list-style-type: none;
+}
+
+a.footer {
+    color: rgb( 102, 0, 0);
+    font-size:22px;
+    font-weight:bold;
+    font-family: "Garamond";
+}
+
+a.footer:hover {
+    color: rgb(134, 6, 6);
+}
+
+a.footer:link{
+    text-decoration:none;
+} 

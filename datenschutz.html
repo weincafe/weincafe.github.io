@@ -3,15 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/content.css" />
     <link rel="stylesheet" href="css/navigationbar.css" />
     <link rel="stylesheet" href="css/infobar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
 
     <script src="js/jquery-3.5.1.js"></script>
 
     <script>
         $(function () {
             $("#includeinfobar").load("infobar.html");
-             $("#includenavigationbar").load("navigationbar.html");
+            $("#includenavigationbar").load("navigationbar.html");
+            $("#includeFooter").load("footer.html");
         });
     </script>
 </head>
@@ -20,7 +23,7 @@
     <div id="includeinfobar"></div>
     <div id="includenavigationbar"></div>
 
-    <div class="site" style="text-align: left;">
+    <div class="content" style="text-align: left;">
         <h3>Datenschutzerklärung</h3>
         <p>
             <strong>Allgemeiner Hinweis und Pflichtinformationen</strong>
@@ -279,6 +282,9 @@
             erstellt.
         </p>
     </div>
+
+    <div id="includeFooter"></div>
+
 </body>
 
 </html>
