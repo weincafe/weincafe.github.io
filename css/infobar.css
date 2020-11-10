@@ -2,7 +2,7 @@
     background-color: rgb( 191, 3, 80);
     height: 170px;
     line-height: 110%; 
-    min-width: 1600px;
+    min-width: 1200px;
     width: 100%;
     position: absolute;
     z-index: 1;
@@ -10,7 +10,7 @@
 
 .infobarContainer{
     float:left;
-    padding-right: 25px;
+    padding-right: 15px;
     position: relative; 
     top: 0; 
 }
