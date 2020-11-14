@@ -4,8 +4,8 @@
     bottom: 0;
     width: 100%;
     height: 75px;
-    padding-bottom:5px;
     min-width: 1200px;
+    margin: 0;
 }
 
 div.footerBackground{   
@@ -24,11 +24,12 @@ div.footerBackground{
 
 ul.footer{
     margin-right: 30px;
+    padding-bottom: 20px;
 }
 
 li.footer {
     float: right;
-    padding: 15px;
+    padding-right: 30px;
     list-style-type: none;
 }
 
