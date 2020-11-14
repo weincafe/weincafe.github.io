@@ -5,7 +5,7 @@
     width: 100%;
     height: 75px;
     padding-bottom:5px;
-    min-width: 1200px;
+    min-width: 1400px;
 }
 
 div.footerBackground{   
@@ -20,6 +20,10 @@ div.footerBackground{
     right: 0;
     width: 100%;
     height: 100%;
+}
+
+ul.footer{
+    margin-right: 30px;
 }
 
 li.footer {
