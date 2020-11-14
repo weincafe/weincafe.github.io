@@ -9,6 +9,7 @@
     font-size:16px;
     box-sizing: border-box;
     color: rgb( 102, 0, 0);
+    min-height: 100%;
 }
 
 div.contentPush {
