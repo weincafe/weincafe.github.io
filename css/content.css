@@ -10,3 +10,7 @@
     box-sizing: border-box;
     color: rgb( 102, 0, 0);
 }
+
+div.contentPush {
+    height: 75px;
+  }
