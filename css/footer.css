@@ -1,7 +1,8 @@
 ﻿div.footer{
     height: 75px;
-    margin-top: -75px;
-    position: relative;
+    width: 100%;
+    bottom:0;
+    position: absolute;
 }
 
 div.footerContent{
