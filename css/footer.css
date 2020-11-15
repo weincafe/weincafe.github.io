@@ -1,10 +1,10 @@
 ﻿div.footer{
-    height: 75px;
-    margin-top: -75px;
+    height: 150px;
+    margin-top: -150px;
 }
 
 div.footerContent{
-    height: 75px;
+    height: 150px;
     left: 0;
     width: 100%;
     min-width: 1200px;
@@ -16,7 +16,7 @@ div.footerBackground{
     opacity: 0.3;  
     background-size: cover;
     position: absolute;
-    height: 75px;
+    height: 150px;
     width: 100%;
     min-width: 1200px;
 }
