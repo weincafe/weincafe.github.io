@@ -5,6 +5,13 @@
     height: 75px;
 }
 
+div.navigationbarContent{
+    position: absolute;
+    min-width: 1200px;
+    width: 100%;
+    height: 75px;
+}
+
 div.navigationbarBackground{    
     background-image: url("/images/background/korken.jpg");
     opacity: 0.3;    
