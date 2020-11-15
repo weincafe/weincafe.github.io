@@ -1,13 +1,11 @@
 ﻿div.content{
     width: 100%;
     min-width: 1200px;
-    min-height: calc(100% - 100px - 245px);
     text-align: center;
     padding-top: 300px; 
-    padding-bottom: 70px;
+    padding-bottom: 75px;
     padding-left: 40px;
     padding-right: 40px;
     font-size:16px;
-    box-sizing: border-box;
     color: rgb( 102, 0, 0);
 }
