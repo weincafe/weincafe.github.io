@@ -1,10 +1,15 @@
 ﻿div.footer{
     height: 75px;
     margin-top: -75px;
+    position: relative;
+}
+
+div.footerContent{
+    height: 75px;
     left: 0;
     width: 100%;
     min-width: 1200px;
-    position: relative;
+    position: absolute;
 }
 
 div.footerBackground{   
