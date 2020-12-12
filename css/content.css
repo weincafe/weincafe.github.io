@@ -1,5 +1,9 @@
 ﻿div.content{
     flex: 1;
+    -webkit-box-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    -webkit-flex: 1;
     width: 100%;
     min-width: 1200px;
     text-align: center;

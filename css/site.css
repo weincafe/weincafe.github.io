@@ -2,6 +2,10 @@
     min-height: 100vh;
     margin: 0;
     display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     flex-direction: column;
     min-width: 1200px;
     background: rgb(248, 248, 222);
