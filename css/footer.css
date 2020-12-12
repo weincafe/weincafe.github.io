@@ -1,6 +1,8 @@
 ﻿div.footer{
     height: 75px;
-    flex-shrink: 0;
+    width: 100%;
+    bottom:0;
+    position: absolute;
 }
 
 div.footerContent{
