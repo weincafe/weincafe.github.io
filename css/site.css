@@ -13,7 +13,7 @@ body{
 
 .site{
     min-height: 100%;
-    margin: 0 auto -75px
+    margin-bottom: -75px;
 }
 
 .push {
