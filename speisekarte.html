@@ -24,24 +24,23 @@
 </head>
 
 <body>
-        <div class=site>
 
-                <div id="includeinfobar"></div>
-                <div id="includenavigationbar"></div>
-                <div class="content">
+        <div id="includeinfobar"></div>
+        <div id="includenavigationbar"></div>
+        <div class="content" style="display: flex; flex-direction: column;">
 
-                        <iframe src="pdfs/speisekarte.pdf" style="width: 95%; height: 90%; border: none; margin-bottom: 20px"></iframe>
+                <iframe src="pdfs/speisekarte.pdf"
+                        style=" flex:1; width:95%; border: none; margin-bottom: 20px"></iframe>
 
-                        <a style="color: rgb( 102, 0, 0); text-decoration: none;" href="pdfs/speisekarte.pdf" download>
-                                <h2>
-                                        Die Speisekarte kann als PDF Dokument gespeichert werden.
-                                </h2>
-                        </a>
-
-                </div>
+                <a class="content" 
+                href="pdfs/speisekarte.pdf" download>
+                        <h2>
+                                Die Speisekarte kann als PDF Dokument gespeichert werden.
+                        </h2>
+                </a>
 
         </div>
-        
+
         <div id="includeFooter"></div>
 
 </body>
