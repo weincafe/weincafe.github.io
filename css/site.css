@@ -13,7 +13,12 @@ body{
 
 .site{
     min-height: 100%;
+    margin-bottom: -75px;
 }
+
+.push {
+    height: 75px;
+  }
 
 .vertical-center {
     margin: 0;
