@@ -6,6 +6,7 @@
     padding-bottom: 115px;
     font-size:16px;
     color: rgb( 102, 0, 0);
+    box-sizing: border-box;
 }
 
 table.content{
