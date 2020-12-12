@@ -1,14 +1,12 @@
-﻿
-html{
-    height: -webkit-fill-available;
+﻿html{
+    height: 100%
 }
 
 body{
     margin: 0px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
+    height: 100%;
     min-width: 1200px;
     background: rgb(248, 248, 222);
     font-family:Arial, Helvetica, sans-serif;
