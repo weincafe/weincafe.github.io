@@ -9,6 +9,7 @@ div.footerBackground{
     background-size: cover;
     position: absolute;
     height: 75px;
+    width: 100%;
 }
 
 ul.footer{
