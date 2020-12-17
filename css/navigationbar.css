@@ -2,14 +2,12 @@
     position: relative;
     width: 100%;
     height: 75px;
-    display: flex;
 }
 
 div.navigationbarContent{
     position: absolute;
     width: 100%;
     height: 75px;
-    flex: 1 0 1800px;
 }
 
 div.navigationbarBackground{    
@@ -36,7 +34,6 @@ li.navigationbarLeft {
     float: left;
     margin-right: 30px;
     list-style-type: none;
-    flex: 1 0 1800px;
 }
 
 li.navigationbarRight {
