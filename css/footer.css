@@ -1,15 +1,27 @@
-﻿div.footerContent{
+﻿div.footer{
+    height: 75px;
+    width: 100%;
+    bottom:0;
+    position: absolute;
+}
+
+div.footerContent{
     height: 75px;
     left: 0;
+    width: 100%;
+    min-width: 1200px;
     position: absolute;
 }
 
 div.footerBackground{   
+    background-image: url("/images/background/rebenblatt.jpg");
     opacity: 0.3;  
     background-size: cover;
     position: absolute;
     height: 75px;
     width: 100%;
+    min-width: 1200px;
+    overflow: hidden;
 }
 
 ul.footer{
