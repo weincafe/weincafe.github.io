@@ -1,4 +1,8 @@
-﻿div.footerContent{
+﻿footer {
+    height: 75px;
+}
+
+div.footerContent{
     height: 75px;
     left: 0;
     width: 100%;
