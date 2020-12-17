@@ -1,16 +1,6 @@
-﻿div.footer{
-    height: 75px;
-    width: 100%;
-    bottom:0;
-    position: absolute;
-}
-
-div.footerContent{
-    height: 75px;
+﻿div.footerContent{
     left: 0;
-    width: 100%;
-    min-width: 1200px;
-    position: absolute;
+    height: 75px;
 }
 
 div.footerBackground{   
@@ -20,8 +10,6 @@ div.footerBackground{
     position: absolute;
     height: 75px;
     width: 100%;
-    min-width: 1200px;
-    overflow: hidden;
 }
 
 ul.footer{
