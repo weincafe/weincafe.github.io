@@ -7,12 +7,14 @@
     font-size: 16px;
 }
 
-div.infobarMobile{
-    background-color: rgb( 191, 3, 80);
-    height: 250px;
-    min-width: 1200px;
-    width: 100%;
-    font-size: 23px;
+@media only screen and (max-width: 600px) {
+    div.infobarMobile{
+        background-color: rgb( 191, 3, 80);
+        height: 250px;
+        min-width: 1200px;
+        width: 100%;
+        font-size: 23px;
+  }
 }
 
 div.infobarMobileLogo{
@@ -21,10 +23,6 @@ div.infobarMobileLogo{
     width: 100%;
     position: relative;
     min-width: 1200px;
-}
-
-hr.infobarMobileLine{
-    border: 1px solid #F2A36A;
 }
 
 .infobarContainer{
