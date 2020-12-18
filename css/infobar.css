@@ -23,6 +23,10 @@ div.infobarMobileLogo{
     min-width: 1200px;
 }
 
+hr.infobarMobileLine{
+    border: 1px solid #F2A36A;
+}
+
 .infobarContainer{
     float: left;
     padding-right: 20px;
