@@ -1,8 +1,6 @@
 ﻿div.footer{
     height: 75px;
     width: 100%;
-    bottom:0;
-    position: absolute;
 }
 
 div.footerContent{

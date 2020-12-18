@@ -12,12 +12,19 @@ div.infobarMobile{
     height: 250px;
     min-width: 1200px;
     width: 100%;
-    float: left;
     font-size: 23px;
 }
 
+div.infobarMobileLogo{
+    background-color: rgb( 191, 3, 80);
+    height: 450px;
+    width: 100%;
+    position: relative;
+    min-width: 1200px;
+}
+
 .infobarContainer{
-    float:left;
+    float: left;
     padding-right: 40px;
 }
 
@@ -43,3 +50,15 @@ table.infobar {
     color: white;
     text-align: left;
 } 
+
+div.center {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
