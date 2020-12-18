@@ -1,8 +1,19 @@
-﻿div.infobar{
+﻿div.infobarDesktop{
     background-color: rgb( 191, 3, 80);
     height: 170px;
     min-width: 1200px;
     width: 100%;
+    float: left;
+    font-size: 16px;
+}
+
+div.infobarMobile{
+    background-color: rgb( 191, 3, 80);
+    height: 250px;
+    min-width: 1200px;
+    width: 100%;
+    float: left;
+    font-size: 23px;
 }
 
 .infobarContainer{
@@ -12,13 +23,11 @@
 
 .infobarText{
     color: white;
-    font-size: 16px;
     font-weight: normal;
     text-align: left;
 }
 
 div.infobarCaption{
-    font-size: 18px;
     color: #F2A36A;
     font-weight:bold;
     padding-top:10px;
@@ -33,5 +42,4 @@ a.infobar:link{
 table.infobar {
     color: white;
     text-align: left;
-    font-size: 16px;
-}
+} 
