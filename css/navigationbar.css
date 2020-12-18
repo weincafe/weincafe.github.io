@@ -1,10 +1,14 @@
 ﻿div.navigationbar{
+    position: relative;
+    min-width: 1200px;
     width: 100%;
     height: 75px;
 }
 
 div.navigationbarContent{
     position: absolute;
+    min-width: 1200px;
+    width: 100%;
     height: 75px;
 }
 
@@ -13,6 +17,7 @@ div.navigationbarBackground{
     opacity: 0.3;    
     background-size: cover;
     width: 100%;
+    min-width: 1200px;
     height: 75px;
     position: absolute;
 }
@@ -24,20 +29,8 @@ img.navigationbarIcon{
     margin-left: 12px;
 }
 
-ul.navigationBarLeft{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    white-space: nowrap;
-    border: 1px solid #000;
-}
-
 ul.navigationbarRight{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
     margin-right: 30px;
-    border: 1px solid #000;
 }
 
 li.navigationbarLeft {
