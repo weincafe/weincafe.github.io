@@ -1,7 +1,7 @@
 ﻿div.navigationbar{
     min-width: 1200px;
     width: 100%;
-    height: 75px;
+    height: 125px;
     clear: both;
 }
 
@@ -30,7 +30,7 @@ img.navigationbarIcon{
 }
 
 ul.navigationbarRight{
-    margin-right: 30px;
+    margin-right: 29px;
 }
 
 li.navigationbarLeft {
@@ -57,6 +57,6 @@ a.navigationbar:link{
 } 
 
 a.navigationbarLeft{
-    font-size:30px;
+    font-size:32px;
     font-weight: bold;
 }
