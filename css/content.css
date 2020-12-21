@@ -1,18 +1,17 @@
 ﻿div.content{
     width: 100%;
-    width: 1200px;
-    padding: 20px; 
+    min-width: 1200px;
+    text-align: center;
+    padding: 50px; 
     padding-bottom: 115px;
-    font-size:26px;
+    font-size:16px;
     color: rgb( 102, 0, 0);
     box-sizing: border-box;
-    margin:0 auto; 
-    text-align:center;
 }
 
 table.content{
     text-align: left;
-    font-size:27px;
+    font-size:16px;
     color: rgb( 102, 0, 0);
 }
 

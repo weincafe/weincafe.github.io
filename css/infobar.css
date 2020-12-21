@@ -1,41 +1,24 @@
-﻿div.infobarDesktop{
+﻿div.infobar{
     background-color: rgb( 191, 3, 80);
     height: 170px;
     min-width: 1200px;
     width: 100%;
-    float: left;
-    font-size: 16px;
-}
-
-div.infobarMobile{
-    background-color: rgb( 191, 3, 80);
-    height: 250px;
-    min-width: 1200px;
-    width: 100%;
-    font-size: 23px;
-}
-
-div.infobarMobileLogo{
-    background-color: rgb( 191, 3, 80);
-    height: 250px;
-    width: 100%;
-    position: relative;
-    min-width: 1200px;
 }
 
 .infobarContainer{
-    float: left;
-    padding-right: 20px;
-    padding-left: 20px;
+    float:left;
+    padding-right: 40px;
 }
 
 .infobarText{
     color: white;
+    font-size: 16px;
     font-weight: normal;
     text-align: left;
 }
 
 div.infobarCaption{
+    font-size: 18px;
     color: #F2A36A;
     font-weight:bold;
     padding-top:10px;
@@ -50,16 +33,5 @@ a.infobar:link{
 table.infobar {
     color: white;
     text-align: left;
-} 
-
-div.center {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-}
-
-img.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 16px;
 }

@@ -1,9 +1,12 @@
 ﻿div.footer{
+    height: 75px;
     width: 100%;
+    bottom:0;
+    position: absolute;
 }
 
 div.footerContent{
-    height: 100px;
+    height: 75px;
     left: 0;
     width: 100%;
     min-width: 1200px;
@@ -15,7 +18,7 @@ div.footerBackground{
     opacity: 0.3;  
     background-size: cover;
     position: absolute;
-    height: 100px;
+    height: 75px;
     width: 100%;
     min-width: 1200px;
 }
@@ -33,7 +36,7 @@ li.footer {
 
 a.footer {
     color: rgb( 102, 0, 0);
-    font-size:32px;
+    font-size:22px;
     font-weight:bold;
 }
 
