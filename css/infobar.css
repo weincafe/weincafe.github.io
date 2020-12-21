@@ -37,19 +37,17 @@ div.infobarCaption{
     padding-bottom: 5px;
 }
 
+a.infobar {
+    color: white
+}
+
 a.infobar:link{
     text-decoration:none;
-    color: white
 }
 
 a.infobar:hover {
     color: #F2A36A;
 }
-
-
-a.infobar:visited{
-    color:white;
-  }
 
 table.infobar {
     color: white;
