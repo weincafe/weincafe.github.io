@@ -46,6 +46,11 @@ a.infobar:hover {
     color: #F2A36A;
 }
 
+
+a.infobar:visited{
+    color:white;
+  }
+
 table.infobar {
     color: white;
     text-align: left;
