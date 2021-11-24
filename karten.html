@@ -1,0 +1,73 @@
+﻿<html>
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/site.css" />
+  <link rel="stylesheet" href="css/content.css" />
+  <link rel="stylesheet" href="css/navigationbar.css" />
+  <link rel="stylesheet" href="css/infobar.css" />
+
+  <script src="js/jquery-3.5.1.js"></script>
+
+  <script>
+      $(function () {
+        $("#includeInfobar").load("infobar.html");
+        $("#includeNavigationbar").load("navigationbar.html");
+      });
+    </script>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+  
+  </head>
+  
+  <body>
+  
+    <div id="includeInfobar"></div>
+    <div id="includeNavigationbar"></div>
+  
+    <div class="content">
+    
+      <ul class="content">
+    
+        <li class="content">
+          <a href="speisekarte.html">
+            <div class="imageContainer">
+              <img src="images/karten/essen.jpg" width="330px" style="opacity: 0.4;" style="width:100%;">
+              <div class="textInImageCentered content">
+                <h1>Speisekarte</h1>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li class="content">
+          <a href="getränkekarte.html">
+            <div class="imageContainer">
+              <img src="images/karten/wein.jpg" width="330px" style="opacity: 0.4;" style="width:100%;">
+              <div class="textInImageCentered content">
+                <h1>Getränkekarte</h1>
+              </div>
+            </div>
+          </a>
+        </li>
+
+        <li class="content">
+          <a href="togokarte.html">
+            <div class="imageContainer">
+              <img src="images/karten/ToGo.jpg" width="330px" style="opacity: 0.4;" style="width:100%;">
+              <div class="textInImageCentered content">
+                <h1>ToGo-Karte</h1>
+              </div>
+            </div>
+          </a>
+        </li>
+    
+      </ul>
+    
+    </div>
+  
+  </body>
+  
+  </html>
